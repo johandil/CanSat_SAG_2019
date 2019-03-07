@@ -1,0 +1,1 @@
+open("datatry.txt", "w").close()
