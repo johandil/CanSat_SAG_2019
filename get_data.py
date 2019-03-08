@@ -1,5 +1,4 @@
 import serial
-import time
 
 port_number = 'COM4'  # choose port for the Arduino
 ser = serial.Serial()  # set Serial() object to ser
