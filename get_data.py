@@ -1,17 +1,12 @@
 import serial
 import time
 
-port_number = 'COM4'
-
-ser = serial.Serial()
-ser.port = port_number
-ser.baudrate = 9600
-
-print(ser)
-ser.open()
-print(ser.is_open)
-time.sleep(2)
-while(True == True):
+port_number = 'COM4'  # choose port for the Arduino
+ser = serial.Serial()  # set Serial() object to ser
+ser.port = port_number  # set port to port_number
+ser.baudrate = 9600  # set baudrate
+ser.open()  # open port
+while(ser.in_waiting > 0):
     with open("datatry.txt", 'ab') as file:
         file.write(ser.readline())
 
