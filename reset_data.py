@@ -1,1 +1,1 @@
-open("datatry.txt", "w").close()
+open("maalinger.txt", "w").close()  # empty maalinger.txt
