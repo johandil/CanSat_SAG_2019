@@ -6,7 +6,10 @@ html, body {
 }
 
 .bg {
-  background-color: orange;
+  background-image: url("./wildfire.jpg");
+  background-repeat: no-repeat;
+  background-size:  cover;
+  background-position: center;
   height: 100%;
 }
 
@@ -14,33 +17,30 @@ html, body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  height: 150px;
+  height: 100px;
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: blue;
 }
 
-
-.headings {
-  background-color: red;
-
-  border: 5px solid coral;
-}
-
-.item1 {
-  background-color: aquamarine;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-
-
-
-
-}
-
-.h1 {
+.heading {
+  margin: 0;
   padding-top: 25px;
+}
 
+.item {
+  text-align: center;
+}
 
+.mission {
+
+}
+
+.team{
+
+}
+
+.resources{
 
 }
