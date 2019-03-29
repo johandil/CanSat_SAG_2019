@@ -39,10 +39,6 @@ html, body {
 }
 
 .mission {
-  background-color: hsl(55, 6%, 52%);
-
-
-
 
 }
 
@@ -52,6 +48,7 @@ html, body {
 }
 
 .resources{
+  background-color: hsl(55, 6%, 52%);
 
 }
 
