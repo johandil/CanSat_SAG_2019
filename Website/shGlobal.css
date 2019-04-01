@@ -1,17 +1,10 @@
 html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
-  height: 100%;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-}
 
-.bg {
-  background-image: url("./wildfire.jpg");
-  background-repeat: no-repeat;
-  background-size:  cover;
-  background-position: center;
-  height: 100%;
 }
 
 .header {
@@ -40,48 +33,12 @@ html, body {
   background-color: hsl(32, 62%, 52%);
 }
 
-.mission {
-  background-color: hsl(55, 6%, 52%);
-
-
-
-
-}
-
-.team{
-
-
-}
-
-.resources{
-
-}
-
-.mainContainer {
-
-}
-
-.main {
-  width: 50%;
-  margin: 0 auto;
-  background-color: hsla(55, 6%, 52%, 0.8);
-  padding-top: 25px;
-  text-align: center;
+a {
+  text-decoration: inherit;
+  color: inherit;
 }
 
 p {
   margin: 0;
   font-size: 22px;
-}
-
-.main h1 {
-  margin: 0;
-  padding-bottom: 10px;
-
-
-}
-
-a {
-  text-decoration: inherit;
-  color: inherit;
 }
