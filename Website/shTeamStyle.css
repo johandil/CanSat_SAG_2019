@@ -1,54 +1,11 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-}
 
 .bg {
-  background-image: url("./wildfire.jpg");
-  background-repeat: no-repeat;
-  background-size:  cover;
-  background-position: center;
   height: 100%;
-}
-
-.header {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  height: 100px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.heading {
-  margin: 0;
-  padding-top: 25px;
-  padding-bottom: 25px;
-
-}
-
-.item {
-  text-align: center;
-  border-width: 5px;
-  border-color: black;
-  border-style: solid;
-  background-color: hsl(32, 62%, 52%);
-}
-
-.mission {
-
+  background-color: hsl(360, 0%, 85%);
 }
 
 .team{
   background-color: hsl(55, 6%, 52%);
-
-}
-
-.resources{
 
 }
 
@@ -64,18 +21,9 @@ html, body {
   text-align: center;
 }
 
-p {
-  margin: 0;
-}
-
 .main h1 {
   margin: 0;
   padding-bottom: 10px;
 
 
-}
-
-a {
-  text-decoration: inherit;
-  color: inherit;
 }
